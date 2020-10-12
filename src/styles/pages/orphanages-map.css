@@ -1,0 +1,57 @@
+#page-map {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+
+  position: relative;
+}
+
+#page-map aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 440px;
+  padding: 4rem;
+
+  background: linear-gradient(329.54deg, #15B6D6 0%, #15D6D6 100%);
+}
+
+#page-map aside h2 {
+  margin-top: 4rem;
+
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 42px;
+}
+
+#page-map aside p {
+  margin-top: 1.5rem;
+  line-height: 28px;
+}
+
+#page-map aside footer {
+  display: flex;
+  flex-direction: column;
+
+  line-height: 24px;
+}
+
+#page-map aside footer strong {
+  font-weight: 800;
+}
+
+#page-map .create-orphanage {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  right: 2.5rem;
+  bottom: 2.5rem;
+
+  background-color: #15c3d6;
+  border-radius: 20px;
+
+  transition: background-color 0.2s;
+}
