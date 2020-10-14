@@ -13,7 +13,7 @@
   width: 440px;
   padding: 4rem;
 
-  background: linear-gradient(329.54deg, #15B6D6 0%, #15D6D6 100%);
+  background: linear-gradient(160deg,#15b6d6 0%, #15d685 100%)
 }
 
 #page-map aside h2 {
@@ -40,6 +40,10 @@
   font-weight: 800;
 }
 
+#page-map .leaflet-container {
+  z-index: 5;
+}
+
 #page-map .create-orphanage {
   position: absolute;
   display: flex;
@@ -49,6 +53,8 @@
   height: 64px;
   right: 2.5rem;
   bottom: 2.5rem;
+
+  z-index: 10;
 
   background-color: #15c3d6;
   border-radius: 20px;

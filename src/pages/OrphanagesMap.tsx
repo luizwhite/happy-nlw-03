@@ -20,8 +20,8 @@ function OrphanagesMap() {
         </header>
 
         <footer>
-          <strong>Rio do Sul</strong>
-          <span>Santa Catarina</span>
+          <strong>Campinas</strong>
+          <span>São Paulo</span>
         </footer>
       </aside>
 
@@ -30,7 +30,10 @@ function OrphanagesMap() {
         zoom={13}
         style={{ width: '100%', height: '100%' }}
       >
-        <TileLayer url="https://a.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+        {/* <TileLayer url="https://a.tile.openstreetmap.org/{z}/{x}/{y}.png" /> */}
+        <TileLayer 
+          url={`https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/256/{z}/{x}/{y}@2x?access_token=${process.env.REACT_APP_MAPBOX_TOKEN}`}
+        />
       </Map>
         
 
