@@ -61,3 +61,41 @@
 
   transition: background-color 0.2s;
 }
+
+#page-map .create-orphanage:hover {
+  background-color: #17d6eb;
+}
+
+#page-map .map-popup .leaflet-popup-content-wrapper {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 18px;
+}
+
+#page-map .map-popup .leaflet-popup-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px 12px;
+  
+  border-radius: 18px;
+  
+  color: #0089A5;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+#page-map .map-popup .leaflet-popup-content a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background: #15c3d6;
+
+  border-radius: 12px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#page-map .map-popup .leaflet-popup-tip-container {
+  display: none;
+}
